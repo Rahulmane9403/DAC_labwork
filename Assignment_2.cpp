@@ -100,27 +100,30 @@
 //	return 0;
 //}
 
-#include <iostream>
-using namespace std;
-int no_of_digit(int num){
-    int count = 0;
-    if (num == 0) {
-        return 1;
-    }
-    while (num != 0) {
-        num = num/10; 
-        count++;        
-    }
-    return count;
-}
-int main() {
-    int no;
-    cout<< "Enter a number: ";
-    cin>>no;
-    int digits = no_of_digit(no);
-    cout<<"Number of digits: "<<digits<<endl;
-    return 0;
-}
+//8.find no of digits in the given no
+//#include <iostream>
+//using namespace std;
+//int no_of_digit(int num){
+//    int count = 0;
+//    if (num == 0) {
+//        return 1;
+//    }
+//    while (num != 0) {
+//        num = num/10; 
+//        count++;        
+//    }
+//    return count;
+//}
+//int main() {
+//    int no;
+//    cout<< "Enter a number: ";
+//    cin>>no;
+//    int digits = no_of_digit(no);
+//    cout<<"Number of digits: "<<digits<<endl;
+//    return 0;
+//}
+//
+
 
 
 
