@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title></title>
+        <style>
+            form {
+    display: block;
+    margin-top: 10;
+    padding: 2em; /* Adds padding inside the form */
+    border: 10px solid navy; /* Adds a border around the form */
+    border-radius: 5px; /* Rounds the corners of the border */
+    background-color: skyblue; /* Sets a background color */
+}
+        </style>
+    </head>
+    <body>
+        <form>
+            <label for="email">email</label>
+            <input type="email" id="email"><br>
+            <label for="password">password</label>
+            <input type="password" id="password" name="password"><br>
+            <input type="submit" > <br><br><br>
+
+            <label for="number">number</label><br>
+            <input type="number" id="number" min="0" max="5"><br><br>
+
+            <label for="Button">Button</label><br>
+            <input type="button" > <br>click the button<br><br>
+            
+            <label for="Button">Reset</label><br>
+            <input type="reset" ><br>click the button<br><br>
+            <label for="text">Details</label><br>
+            <input type="text"><BR>
+            <input type="submit" value="VALIDATE" attributes><br>
+            <hr>
+            <h1>for button type</h1><br><br>
+            <img src="https://stimg.cardekho.com/images/carexteriorimages/630x420/Mahindra/XUV700/10789/1705388477954/front-left-side-47.jpg?tr=w-664" width="1000"><br>
+            <button type="button" onclick="alert('welcome to M&M')">to book a car click</button>
+            <input type="image" src="data:image/jpeg;base64,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">
+            <hr size="10">
+            <h1>welcome to form and their attributes</h1>
+            <br>
+            <form method="get">
+                <label for="text">text</label><br>
+                <input type="text">      <br>
+                <input type="submit" ><br>     
+                <input type="checkbox" name="vehicle1" value="Bike">
+                <label for="vehicle1"> I have a bike</label><br>
+                <input type="checkbox" name="vehicle2" value="Car">
+                <label for="vehicle2"> I have a car</label><br>
+                <input type="checkbox" name="vehicle3" value="Boat" checked>
+                <label for="vehicle3"> I have a boat</label><br><br>
+
+                <input type="submit" value="Submit"><BR><H1>radio button</H1>
+
+                <input type="radio" id="html" name="fav_language" value="HTML">
+                <label for="html">HTML</label><br>
+                <input type="radio" id="css" name="fav_language" value="CSS" checked="checked">
+                <label for="css">CSS</label><br>
+                <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+                <label for="javascript">JavaScript</label><br><br>
+                <input type="submit" value="Submit">
+            </form>
+            
+        </form>
+        <hr size="5">
+        <form>
+            <h3>implementation of file</h3>
+            <label for="myfile">select a file:</label>
+            <input type="file" id="myfile" name="myfile"><br>
+            <input type="submit">
+
+        </form>
+        <hr>
+        <form action="test.html" method="get">
+            <h3>for multiple files</h3>
+            <label for="upfiles" >mul files:</label><br>
+            <input type="file" id="upfiles" name="upfiles" multiple><br><br>
+            <input type="submit">
+        </form>
+        <br>
+
+        <h3>color picker</h3>
+        <form>
+            <label for="color">choose color:</label>
+            <input type="color" value="#af0000"><br>
+            <input type="submit" name="submit">
+        </form>
+        <hr>
+        <h3>date and timecontrol</h3>
+        <form>
+            <input type="date" id="datePicker"> <br>
+
+            <br>
+            <input type="date" name="eventDate">
+            <br>
+            
+
+        </form><br>
+        <form>
+            <label for="weekPicker">Select a Week:</label>
+            <input type="week" id="weekPicker" name="week">
+            
+            <label for="monthPicker">Select a Month:</label>
+            <input type="month" id="monthPicker" name="month">
+
+            <label for="yearPicker">Select a year:</label>
+            <input type="year" id="yearPicker" name="month">
+            <input type="submit" value="Submit">
+        </form>
+        <br>
+        <form>
+            <label for="datePicker">Event Date:</label>
+            <input type="date" id="datePicker" name="eventDate" min="2024-09-01" max="2024-12-31" required>
+            <input type="submit" value="Submit">
+
+            <br><br>
+        </form><br>
+        <form>
+            <label for="email">email id:</label>
+            <input type="email">
+            <input type="submit">
+        </form>
+        <form>
+            <h4>used to create a slider bar, based on the specific range</h4>
+            <input type="range" id="range" min="1" max="10" step="1" value="10">
+            <span id="value display">10</span>
+
+            <hr>
+            <h4>search</h4>
+            <input type="search" id="searchbox" name="query" placeholder="serch here" required>
+            <input type="submit" value="search">
+ 
+        </form>
+
+
+    </body>
+</html>
+
