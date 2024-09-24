@@ -3,6 +3,19 @@
     <head>
         <title></title>
         <style>
+            aside{
+                padding-left: 250px;
+                margin-left: 250px;
+                font-style: italic;
+                background-color: lightgray;
+
+
+            }
+
+            details{
+                color: red;
+            }
+
             form {
     display: block;
     margin-top: 10;
@@ -14,6 +27,17 @@
         </style>
     </head>
     <body>
+        <details>
+            <summary>lab work of Html</summary>
+            <p>
+                <h3>all implement here</h3>
+            </p>
+        </details>
+        <nav>
+            <h4>nav bar</h4>
+            <a href="test.html">testfile1</a>
+            <a href="day2test.html">testfile2</a>
+        </nav>
         <form>
             <label for="email">email</label>
             <input type="email" id="email"><br>
@@ -61,6 +85,11 @@
                 <label for="javascript">JavaScript</label><br><br>
                 <input type="submit" value="Submit">
             </form>
+                <p>aside implement</p>
+                <aside>
+                    <p>hello i am rahul</p>
+                </aside>
+            
             
         </form>
         <hr size="5">
@@ -131,9 +160,66 @@
             <input type="search" id="searchbox" name="query" placeholder="serch here" required>
             <input type="submit" value="search">
  
+        </form><br>
+        <hr>
+        <form>
+            <label for="cars">choose a car:</label>
+            <select name="car" id="cars">
+                <option value="volvo">volvo</option>
+                <option value="tata">tata</option>
+            </select>
         </form>
+        <br><hr>
+        <form action="day2test.html">
+            <h4>list box with optgroup</h4><br><br>
+            <label for="listbox" size="4">choose one of the following:</label>
+            <select name="list" id="listbox">
+                <optgroup label="suv">
+                <option value="volvo">volvo</option>
+                <option value="tata">tata</option>
+                </optgroup>
+                <optgroup label="coup suv">
+                <option value="m&m">m&m</option>
+                <option value="abc">abc</option>
+                </optgroup>
+            </select>
+        </form>
+        <br><hr>
+        <form>
+            <label for="asd">Review of textarea:</label>
 
-
+            <textarea id="textarea" name="textarea" rows="3" cols="50">
+             At w3schools.com you will learn how to make a website. 
+             They offer free tutorials in all web development 
+             technologies.
+            </textarea><br><hr>
+            
+        </form><br>
+        <form>
+        <label for="browser">Choose your browser from the list:</label>
+  <input list="browsers" name="browser" id="browser">
+  <datalist id="browsers">
+    <option value="Edge">
+    <option value="Firefox">
+    <option value="Chrome">
+    <option value="Opera">
+    <option value="Safari">
+    </datalist>
+    <input type="submit">
+        </form>
+        <form oninput="x.value=parseInt(a.value)+parseInt(b.value)">
+            <h4>oninput and output</h4>
+            <input type="number" id="a" value="10">
+            +<input type="number" id="b" value="20">
+            =<output name="x" for="a b"></output>
+        </form>
+<hr><br>
+        <footer>
+            <h4>footer section of doc</h4>
+            <p>Author: Rahul<br>
+            <a href="mailto:hege@example.com">rahul@gmail.com</a>
+        </footer>
+        
     </body>
 </html>
 
